@@ -1,0 +1,49 @@
+unit uDM;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf,
+  FireDAC.DApt.Intf, Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client,
+  FireDAC.Stan.StorageJSON, Vcl.BaseImageCollection, Vcl.ImageCollection;
+
+type
+  TDM = class(TDataModule)
+    tabContacts: TFDMemTable;
+    tabContactsFirstName: TStringField;
+    tabContactsLastName: TStringField;
+    tabContactsPhone: TStringField;
+    tabContactsEmail: TStringField;
+    FDStanStorageJSONLink1: TFDStanStorageJSONLink;
+    dsContacts: TDataSource;
+    ImageCollection1: TImageCollection;
+    procedure DataModuleCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DM: TDM;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+{$R *.dfm}
+
+Uses System.IOUtils;
+
+procedure TDM.DataModuleCreate(Sender: TObject);
+begin
+  if tabContacts.Active then
+    tabContacts.Close;
+  tabContacts.ResourceOptions.Persistent := True;
+  tabContacts.ResourceOptions.PersistentFileName :=
+    TPath.Combine(TPath.GetDocumentsPath, 'MyContacts.json');
+  tabContacts.Open;
+
+end;
+
+end.

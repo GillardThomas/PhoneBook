@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/08/08 16:04:56.000.948,=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/08 16:06:45.000.156,=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/08/08 16:06:49.000.344,=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/08/08 16:06:54.000.915,=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2023/08/08 16:07:28.000.126,=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2023/08/08 16:09:24.000.542,C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit5.pas=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Bootcamp\Day10\PhoneBook\uDM.pas</Transaction>
+    <Transaction>2023/08/08 16:09:24.000.542,C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit5.dfm=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Bootcamp\Day10\PhoneBook\uDM.dfm</Transaction>
+    <Transaction>2023/08/08 16:10:08.000.478,C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit4.dfm=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Bootcamp\Day10\PhoneBook\fDelete.dfm</Transaction>
+    <Transaction>2023/08/08 16:10:08.000.478,C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit4.pas=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Bootcamp\Day10\PhoneBook\fDelete.pas</Transaction>
+    <Transaction>2023/08/08 16:10:26.000.014,C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Bootcamp\Day10\PhoneBook\fEdit.dfm</Transaction>
+    <Transaction>2023/08/08 16:10:26.000.014,C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Bootcamp\Day10\PhoneBook\fEdit.pas</Transaction>
+    <Transaction>2023/08/08 16:10:39.000.206,C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Bootcamp\Day10\PhoneBook\fAdd.dfm</Transaction>
+    <Transaction>2023/08/08 16:10:39.000.206,C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Bootcamp\Day10\PhoneBook\fAdd.pas</Transaction>
+    <Transaction>2023/08/08 16:10:53.000.973,C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Bootcamp\Day10\PhoneBook\fMain.pas</Transaction>
+    <Transaction>2023/08/08 16:10:53.000.973,C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Bootcamp\Day10\PhoneBook\fMain.dfm</Transaction>
+    <Transaction>2023/08/08 16:11:00.000.465,C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\gilla\Documents\Embarcadero\Studio\Projects\Bootcamp\Day10\PhoneBook\PhoneBook.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

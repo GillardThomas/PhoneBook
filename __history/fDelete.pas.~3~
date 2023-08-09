@@ -1,0 +1,24 @@
+unit fDelete;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uDM;
+
+type
+  TDelete = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Delete: TDelete;
+
+implementation
+
+{$R *.dfm}
+
+end.

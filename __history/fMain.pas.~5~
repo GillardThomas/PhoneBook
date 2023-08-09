@@ -1,0 +1,34 @@
+unit fMain;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uDM, Data.DB, Vcl.Grids, Vcl.DBGrids,
+  Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.DBCtrls, System.ImageList, Vcl.ImgList,
+  Vcl.VirtualImageList;
+
+type
+  TMain = class(TForm)
+    Panel1: TPanel;
+    DBGrid1: TDBGrid;
+    DBNavigator1: TDBNavigator;
+    btnAdd: TButton;
+    btnEdit: TButton;
+    btnDelete: TButton;
+    btnClose: TButton;
+    VirtualImageList1: TVirtualImageList;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Main: TMain;
+
+implementation
+
+{$R *.dfm}
+
+end.
